@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Sweet Dave's Library</title>
+        <link type="text/css" rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h3>This is Sweet Dave's Library</h3>
+        <div id="add-button">
+            <button onclick="showForm()">NEW BOOK</button>
+        </div>          
+        <div id="bookcase">
+            
+        </div>
+        <div id="form">
+            <p>Fill out the form below and then click ADD TO LIBRARY</p>
+            <label for="title">Title:</label>
+            <input id="title"><br>
+            <label for="author">Author:</label>
+            <input id="author"><br>
+            <label for="pages"># of Pages:</label>
+            <input id="pages"><br>
+            <div>
+            <label for="pages">Read?</label>
+            <input type="checkbox" id="read" value="yes">
+        </div><br>
+            <button onclick="addBookToLibrary()">ADD TO LIBRARY</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

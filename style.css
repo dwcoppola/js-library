@@ -1,0 +1,31 @@
+body {
+    background-color: #aaaaff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#add-button {
+    margin-bottom: 1em;
+}
+#bookcase {
+    display: flex;
+    flex-direction: row
+}
+.book {
+    width: 150px;
+    height: 200px;
+    background-color: #ffaaaa;
+    margin-right: 1em;
+    text-align: center;
+    padding: 1em;
+    border: 2px solid black;
+}
+input:focus {
+    background-color: #deee06;
+}
+#form {
+    display: none;
+    width: 300px;
+}
+button {
+    width: 90px;
+    height: 36px;
+}
